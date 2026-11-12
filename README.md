@@ -52,28 +52,6 @@ npm start
 # أو مباشرة:
 node server.js
 ```
-
-افتح المتصفح على: **http://localhost:3000**
-
----
-
-## ☁️ الرفع والنشر (Deployment)
-
-### 1. النشر على Vercel (الأسهل والأفضل مجاناً ⭐⭐⭐)
-1. ارفع هذا المستودع إلى حسابك على GitHub.
-2. ادخل على [Vercel](https://vercel.com) واضغط **"Add New Project"**.
-3. اختر مستودع `mahmoud-tash-portfolio` من حسابك على GitHub.
-4. اضغط **"Deploy"** مباشرة (الملف `vercel.json` مجهز للتعامل مع الروابط والـ Caching تلقائياً وبدون أي إعدادات إضافية).
-
-### 2. النشر على GitHub Pages
-1. أنشئ مستودعاً على GitHub باسم: `YOUR_USERNAME.github.io` (أو أي اسم مع تفعيل GitHub Pages).
-2. ارفع ملفات هذا المجلد للفرع `main`.
-3. ادخل على **Settings** > **Pages** > اختر الفرع **main** والمجلد **/ (root)**.
-4. (الملف `.nojekyll` موجود مسبقاً لضمان تحميل مجلد `_next` بدون أي مشاكل).
-
-### 3. النشر على Render أو Railway
-- يعمل كـ Web Service باستخدام الأمر: `node server.js`.
-
 ---
 
 ## 📂 بنية المشروع (Project Structure)
