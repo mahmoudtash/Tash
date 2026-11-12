@@ -1,0 +1,25 @@
+{
+  "name": "mahmoud-tash-portfolio",
+  "version": "1.0.0",
+  "description": "Interactive 3D Developer Portfolio for Mahmoud Tash built with Three.js, React Three Fiber, and Next.js.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "portfolio",
+    "threejs",
+    "react-three-fiber",
+    "webgl",
+    "nextjs",
+    "3d-room",
+    "interactive-portfolio",
+    "mahmoud-tash"
+  ],
+  "author": "Mahmoud Tash <mahmoudtash3@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

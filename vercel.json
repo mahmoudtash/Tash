@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "routes": [
+    {
+      "src": "/_next/(.*)",
+      "dest": "/_next/$1"
+    },
+    {
+      "src": "/fonts/(.*)",
+      "dest": "/fonts/$1"
+    },
+    {
+      "src": "/projects/(.*)",
+      "dest": "/projects/$1"
+    },
+    {
+      "src": "/projects",
+      "dest": "/projects/index.html"
+    },
+    {
+      "src": "/contact",
+      "dest": "/contact/index.html"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
+    }
+  ]
+}
